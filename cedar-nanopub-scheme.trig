@@ -1,0 +1,47 @@
+@prefix : <http://purl.org/nanopub/temp/0b91ff2b-798e-4796-837e-fa83b6c72bb7#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix os: <http://open-services.net/ns/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/TR/skos-reference/skos-owl1-dl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+:Head {
+  : a np:Nanopublication ;
+    np:hasAssertion :assertion ;
+    np:hasProvenance :provenance ;
+    np:hasPublicationInfo :pubinfo .
+}
+
+:assertion {
+  # All triples that are not used below go here.
+  # The subject at the top level is :subj instead of https://repo.metadatacenter.org/template-instances/...
+  # to clearly distinguish content from template instance metadata.
+}
+
+:provenance {
+  # Link the assertion to the user who filled in this version of the template instance
+  # (from modifiedBy):
+  :assertion pav:authoredBy <https://metadatacenter.org/users/[USER-ID]> .
+}
+
+:pubinfo {
+  # Again link to the user who filled in this version of the template instance
+  # (from modifiedBy):
+  : dct:creator <https://metadatacenter.org/users/1e0f66d9-461a-4ebd-b143-386b29c1f69e> ;
+  # The timestamp of this version (from lastUpdatedOn):
+    dct:created "[VERSION-TIMESTAMP]"^^xsd:dateTime .
+
+  # Template instance metadata as defined in CEDAR RDF, with modifiedBy and lastUpdatedOn omitted:
+  <https://repo.metadatacenter.org/template-instances/[TEMPLATE-INSTANCE-ID]>
+    pav:createdBy <https://metadatacenter.org/users/[TEMPLATE-INSTANCE-CREATOR-ID> ;
+    pav:createdOn "[TEMPLATE-INSTANCE-CREATION-TIMESTAMP]"^^xsd:dateTime ;
+    schema:description "[TEMPLATE INSTANCE DESCRIPTION]" ;
+    schema:isBasedOn <https://repo.metadatacenter.org/templates/[TEMPLATE-ID]> ;
+    schema:name "[TEMPLATE INSTANCE NAME]" ;
+  # Link template instance to this version:
+    dct:hasVersion : .
+}
+
