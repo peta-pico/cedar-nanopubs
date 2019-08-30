@@ -1,0 +1,61 @@
+@prefix : <http://purl.org/nanopub/temp/9122d7f4-2f0e-49de-8f9d-0fe521f68a83#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdfg: <http://www.w3.org/2004/03/trix/rdfg-1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dce: <http://purl.org/dc/elements/1.1/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix skos: <http://www.w3.org/TR/skos-reference/skos-owl1-dl#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix schema: <http://schema.org/> .
+@prefix cedar-user: <https://metadatacenter.org/users/> .
+@prefix cedar-temp: <https://repo.metadatacenter.org/templates/> .
+@prefix cedar-tempinst: <https://repo.metadatacenter.org/template-instances/> .
+@prefix cedar-tempelinst: <https://repo.metadatacenter.org/template-element-instances/> .
+@prefix cedar-prop: <https://schema.metadatacenter.org/properties/> .
+
+:Head {
+  : np:hasAssertion :assertion;
+    np:hasProvenance :provenance;
+    np:hasPublicationInfo :pubinfo;
+    a np:Nanopublication .
+}
+
+:assertion {
+  :subj cedar-prop:0907e89f-8a32-49f6-bfb6-8831782fbb9f cedar-tempelinst:f2469919-48f4-4a37-abad-892b7a303953 .
+  
+  cedar-tempelinst:f2469919-48f4-4a37-abad-892b7a303953 <https://schema.metadatacenter.net/properties/819dd88d-94d6-4690-a221-ef6301921854>
+      "Danny";
+    <https://schema.metadatacenter.net/properties/areaOfStudy> "Proteomics";
+    <https://schema.metadatacenter.net/properties/assayName> "SWATH-MS";
+    <https://schema.metadatacenter.net/properties/associatedReagentMetadataCategories>
+      "Antibody", "Cell line", "Complimentary DNA (cDNA)", "Small molecule";
+    <https://schema.metadatacenter.net/properties/cdbcda02-3290-49b7-93a0-9538e93aba8d>
+      "HMS_LINCS";
+    <https://schema.metadatacenter.net/properties/datasetAuthorAffiliation> "HMS";
+    <https://schema.metadatacenter.net/properties/datasetDescription> "Proteomics testing";
+    <https://schema.metadatacenter.net/properties/datasetReleaseDate> "2018-5-9"^^xsd:date;
+    <https://schema.metadatacenter.net/properties/datasetTitle> "SWATH Test";
+    <https://schema.metadatacenter.net/properties/principleInvestigator> "Danny";
+    cedar-prop:49844ef8-31ce-4fa9-8316-f5ebb05bf690 "LINCS Phase 2";
+    cedar-prop:6d926724-e82e-4ca3-b728-63b4c2d160a5 "New submission" .
+}
+
+:provenance {
+  :assertion pav:authoredBy cedar-user:4235957e-8373-4a93-8ba7-e97043c677b2 .
+}
+
+:pubinfo {
+  : dct:created "2018-05-10T06:47:00-0700"^^xsd:dateTime;
+    dct:creator cedar-user:4235957e-8373-4a93-8ba7-e97043c677b2;
+    dct:hasVersion : .
+  
+  cedar-tempinst:9122d7f4-2f0e-49de-8f9d-0fe521f68a83 pav:createdBy cedar-user:4235957e-8373-4a93-8ba7-e97043c677b2;
+    pav:createdOn "2018-05-10T06:47:00-0700"^^xsd:dateTime;
+    schema:description "Metadata template for dataset information";
+    schema:isBasedOn <https://repo.metadatacenter.net/templates/690eb70a-1a58-4cc3-b884-527e9ca2a001>;
+    schema:name "DSGC Dataset Template 2.0 metadata" .
+}

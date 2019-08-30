@@ -1,0 +1,95 @@
+@prefix this: <http://purl.org/np/RAn_9ED71VluAc8GJe9ySx0_pDrBTiZP4_uY-FUqiGcNA> .
+@prefix sub: <http://purl.org/np/RAn_9ED71VluAc8GJe9ySx0_pDrBTiZP4_uY-FUqiGcNA#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix schema: <http://schema.org/> .
+@prefix cedar-user: <https://metadatacenter.org/users/> .
+@prefix cedar-temp: <https://repo.metadatacenter.org/templates/> .
+@prefix cedar-tempinst: <https://repo.metadatacenter.org/template-instances/> .
+@prefix cedar-tempelinst: <https://repo.metadatacenter.org/template-element-instances/> .
+@prefix cedar-prop: <https://schema.metadatacenter.org/properties/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  <http://data.bioontology.org/provisional_classes/69af5410-4b53-0136-2940-005056010074>
+    rdfs:label "Available" .
+  
+  <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68850> rdfs:label "True" .
+  
+  <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68851> rdfs:label "False" .
+  
+  sub:_1 a <http://data.bioontology.org/ontologies/NCIT/classes/http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C14250> .
+  
+  sub:subj dct:modified "2018-7-8"^^xsd:date;
+    <https://schema.metadatacenter.net/properties/778571e6-931a-4616-957d-1f8650d25ca7>
+      "2018-7-8"^^xsd:date;
+    <https://schema.metadatacenter.net/properties/availability> <http://data.bioontology.org/provisional_classes/69af5410-4b53-0136-2940-005056010074>;
+    <https://schema.metadatacenter.net/properties/creator> "https://avillach-lab.hms.harvard.edu";
+    <https://schema.metadatacenter.net/properties/dataType> "Unspecified";
+    <https://schema.metadatacenter.net/properties/datasetDescription> "Oracle Database is pre-populated with the CDC NHANES public dataset (41,474 patients with ~1,300 variables)";
+    <https://schema.metadatacenter.net/properties/datasetTitle> "Docker Image for Oracle Database with NHANES dataset";
+    <https://schema.metadatacenter.net/properties/keywords> "NHANES";
+    <https://schema.metadatacenter.net/properties/landingPage> "https://github.com/hms-dbmi/avillachlab-digital-objects/blob/master/oracle.12.2.0.1-ee-i2b2.1.7.09-tm.release-18.1-nhanes.md";
+    <https://schema.metadatacenter.net/properties/resolvableDatasetID> "dbmi/i2b2transmart-db:oracle.12.2.0.1-ee-i2b2.1.7.09-tm.release-18.1-nhanes";
+    <https://schema.metadatacenter.net/properties/storedIn> "hub.docker.com";
+    cedar-prop:13b975ed-c55d-4acb-92ea-e6876b25372b cedar-tempelinst:4dde6e55-97c9-441b-a9e8-7eb6444a4eb7;
+    cedar-prop:18f47165-eac4-4ac0-816b-e9e83e821d31 cedar-tempelinst:28fc20aa-6af3-4c5b-8c2f-b49aa075bf06;
+    cedar-prop:6cd4a267-63f5-4cfa-9756-b72083afa92e cedar-tempelinst:c743b55e-897c-45f5-8db8-3e0bfcdde9a2;
+    cedar-prop:95a78a71-e1f8-40d9-a388-7d8d71ffc32e <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68850>;
+    cedar-prop:9f961451-c949-41d1-9e21-30d601f11eb8 cedar-tempelinst:9f9b9139-fef5-467b-982e-b79b16c68d90;
+    cedar-prop:b4a9f45c-0dc2-4d56-ab75-3fee1ad53349 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68851>;
+    cedar-prop:c519582a-a94d-45fa-9e1a-08e5116b2e5e cedar-tempelinst:7805d4bf-edf9-459d-bbb7-80192f54a484;
+    cedar-prop:f5609806-9c74-4a6d-a8ab-53df1febfe69 cedar-tempelinst:fce8091e-34e4-42a3-a948-1a04770104d8 .
+  
+  cedar-tempelinst:28fc20aa-6af3-4c5b-8c2f-b49aa075bf06 <https://schema.metadatacenter.net/properties/bearerOfDisease>
+      sub:_2;
+    <https://schema.metadatacenter.net/properties/name> "Docker";
+    <https://schema.metadatacenter.net/properties/taxonomy> sub:_1 .
+  
+  cedar-tempelinst:4dde6e55-97c9-441b-a9e8-7eb6444a4eb7 <https://schema.metadatacenter.net/properties/name>
+      "CDC NHANES dataset" .
+  
+  cedar-tempelinst:7805d4bf-edf9-459d-bbb7-80192f54a484 <https://schema.metadatacenter.net/properties/funders>
+      "NIH" .
+  
+  cedar-tempelinst:9f9b9139-fef5-467b-982e-b79b16c68d90 <https://schema.metadatacenter.net/properties/name>
+      "Not applicable" .
+  
+  cedar-tempelinst:c743b55e-897c-45f5-8db8-3e0bfcdde9a2 <https://schema.metadatacenter.net/properties/provider>
+      "hub.docker.com";
+    <https://schema.metadatacenter.net/properties/size> "14GB";
+    <https://schema.metadatacenter.net/properties/title> "Docker Image for Oracle Database with NHANES dataset";
+    <https://schema.metadatacenter.net/properties/unit> "1";
+    cedar-prop:aeca906d-f4b3-4ecb-94de-8d00c894c814 "";
+    cedar-prop:d9efe7c6-75b6-46a8-8be0-0defd0f7b6c5 sub:_3 .
+  
+  cedar-tempelinst:fce8091e-34e4-42a3-a948-1a04770104d8 <https://schema.metadatacenter.net/properties/authors>
+      "https://avillach-lab.hms.harvard.edu";
+    <https://schema.metadatacenter.net/properties/iD> "dbmi/i2b2transmart-db:oracle.12.2.0.1-ee-i2b2.1.7.09-tm.release-18.1-nhanes";
+    <https://schema.metadatacenter.net/properties/title> "Docker Image for Oracle Database with NHANES dataset" .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy cedar-user:912df685-4541-4753-a993-dd0585c4c640 .
+}
+
+sub:pubinfo {
+  this: dct:created "2018-07-30T11:19:42-0700"^^xsd:dateTime;
+    dct:creator cedar-user:912df685-4541-4753-a993-dd0585c4c640;
+    dct:hasVersion this: .
+  
+  cedar-tempinst:a89639ce-08e7-4f40-8cbf-84a832b2aab5 pav:createdBy cedar-user:912df685-4541-4753-a993-dd0585c4c640;
+    pav:createdOn "2018-07-10T12:34:46-0700"^^xsd:dateTime;
+    schema:description "Description of your digital object (or collection)";
+    schema:isBasedOn cedar-temp:62c8b5f2-7dc9-4fff-9008-07c95a746411;
+    schema:name "CCP Digital Object metadata" .
+}

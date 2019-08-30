@@ -1,0 +1,280 @@
+{
+  "@context": {
+    "untitled": "https://schema.metadatacenter.net/properties/untitled",
+    "rdfs:label": {
+      "@type": "xsd:string"
+    },
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "oslc:modifiedBy": {
+      "@type": "@id"
+    },
+    "86a6deb7-3c6c-4fc4-ad3c-957600028f16": "https://schema.metadatacenter.net/properties/86a6deb7-3c6c-4fc4-ad3c-957600028f16",
+    "8691f64a-eb83-4039-90da-715f4a2c76c9": "https://schema.metadatacenter.net/properties/8691f64a-eb83-4039-90da-715f4a2c76c9",
+    "Resolvable Object ID": "https://schema.metadatacenter.net/properties/resolvableDatasetID",
+    "oslc": "http://open-services.net/ns/core#",
+    "Associated Data Types": "https://schema.metadatacenter.net/properties/dataType",
+    "23ee2b7e-ef9e-431f-9db3-f34e0e8c025f": "https://schema.metadatacenter.net/properties/23ee2b7e-ef9e-431f-9db3-f34e0e8c025f",
+    "untitled2": "https://schema.metadatacenter.net/properties/untitled2",
+    "schema:description": {
+      "@type": "xsd:string"
+    },
+    "pav:createdOn": {
+      "@type": "xsd:dateTime"
+    },
+    "schema:name": {
+      "@type": "xsd:string"
+    },
+    "pav:lastUpdatedOn": {
+      "@type": "xsd:dateTime"
+    },
+    "schema": "http://schema.org/",
+    "distribution1": "https://schema.metadatacenter.net/properties/distribution1",
+    "untitled1": "https://schema.metadatacenter.net/properties/untitled1",
+    "pav": "http://purl.org/pav/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "60361c4b-8b05-4d78-b2e9-4cbbd0c6fb2c": "https://schema.metadatacenter.net/properties/60361c4b-8b05-4d78-b2e9-4cbbd0c6fb2c",
+    "schema:isBasedOn": {
+      "@type": "@id"
+    },
+    "Title": "https://schema.metadatacenter.net/properties/datasetTitle",
+    "Description": "https://schema.metadatacenter.net/properties/datasetDescription",
+    "dataReposiotryInformation": "https://schema.metadatacenter.net/properties/dataReposiotryInformation",
+    "pav:createdBy": {
+      "@type": "@id"
+    },
+    "Last Modified Date": "http://purl.org/dc/terms/modified",
+    "Landing Page": "https://schema.metadatacenter.net/properties/landingPage",
+    "Publication Date": "https://schema.metadatacenter.net/properties/778571e6-931a-4616-957d-1f8650d25ca7",
+    "Ready to Index": "https://schema.metadatacenter.org/properties/95a78a71-e1f8-40d9-a388-7d8d71ffc32e",
+    "Composite Submission": "https://schema.metadatacenter.org/properties/b4a9f45c-0dc2-4d56-ab75-3fee1ad53349",
+    "Availability": "https://schema.metadatacenter.net/properties/availability",
+    "Keyword": "https://schema.metadatacenter.net/properties/keywords",
+    "Author": "https://schema.metadatacenter.net/properties/creator",
+    "Digital Object Storage Location": "https://schema.metadatacenter.net/properties/storedIn",
+    "Primary Publication for the Digital Object": "https://schema.metadatacenter.org/properties/f5609806-9c74-4a6d-a8ab-53df1febfe69",
+    "License for the Digital Object": "https://schema.metadatacenter.org/properties/9f961451-c949-41d1-9e21-30d601f11eb8",
+    "Distribution Location of the Digital Object": "https://schema.metadatacenter.org/properties/6cd4a267-63f5-4cfa-9756-b72083afa92e",
+    "Characteristic of the Digital Object": "https://schema.metadatacenter.org/properties/13b975ed-c55d-4acb-92ea-e6876b25372b",
+    "Funding Acknowledgement": "https://schema.metadatacenter.org/properties/c519582a-a94d-45fa-9e1a-08e5116b2e5e",
+    "Material Used to Create Digital Object": "https://schema.metadatacenter.org/properties/18f47165-eac4-4ac0-816b-e9e83e821d31"
+  },
+  "Resolvable Object ID": {
+    "@value": "dbmi/i2b2transmart-db:oracle.12.2.0.1-ee-i2b2.1.7.09-tm.release-18.1-nhanes"
+  },
+  "Publication Date": {
+    "@value": "2018-7-8",
+    "@type": "xsd:date"
+  },
+  "Title": {
+    "@value": "Docker Image for Oracle Database with NHANES dataset"
+  },
+  "Description": {
+    "@value": "Oracle Database is pre-populated with the CDC NHANES public dataset (41,474 patients with ~1,300 variables)"
+  },
+  "Associated Data Types": [
+    {
+      "@value": null
+    },
+    {
+      "@value": "Unspecified"
+    }
+  ],
+  "Last Modified Date": {
+    "@value": "2018-7-8",
+    "@type": "xsd:date"
+  },
+  "Landing Page": {
+    "@value": "https://github.com/hms-dbmi/avillachlab-digital-objects/blob/master/oracle.12.2.0.1-ee-i2b2.1.7.09-tm.release-18.1-nhanes.md"
+  },
+  "Ready to Index": {
+    "@id": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68850",
+    "rdfs:label": "True"
+  },
+  "Composite Submission": {
+    "@id": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68851",
+    "rdfs:label": "False"
+  },
+  "Availability": {
+    "@id": "http://data.bioontology.org/provisional_classes/69af5410-4b53-0136-2940-005056010074",
+    "rdfs:label": "Available"
+  },
+  "Additional Information": [
+    "Additional Information1"
+  ],
+  "Keyword": {
+    "@value": "NHANES"
+  },
+  "Author": [
+    {
+      "@value": "https://avillach-lab.hms.harvard.edu"
+    }
+  ],
+  "Digital Object Storage Location": {
+    "@value": "hub.docker.com"
+  },
+  "Primary Publication for the Digital Object": {
+    "@context": {
+      "title1": "https://schema.metadatacenter.net/properties/title1",
+      "Publisher": "https://schema.metadatacenter.net/properties/publicationVenue",
+      "Funding": "https://schema.metadatacenter.net/properties/acknowledges",
+      "Publication Date": "https://schema.metadatacenter.net/properties/date",
+      "Abstract": "http://purl.org/ontology/bibo/abstract",
+      "Author of Publication": "https://schema.metadatacenter.net/properties/authors",
+      "Title of Publication": "https://schema.metadatacenter.net/properties/title",
+      "ID of Publication": "https://schema.metadatacenter.net/properties/iD"
+    },
+    "Publisher": {
+      "@value": null
+    },
+    "Funding": [
+      {
+        "@value": null
+      }
+    ],
+    "Publication Date": {
+      "@value": null,
+      "@type": "xsd:date"
+    },
+    "Abstract": {
+      "@value": null
+    },
+    "Author of Publication": [
+      {
+        "@value": "https://avillach-lab.hms.harvard.edu"
+      }
+    ],
+    "Title of Publication": {
+      "@value": "Docker Image for Oracle Database with NHANES dataset"
+    },
+    "ID of Publication": {
+      "@value": "dbmi/i2b2transmart-db:oracle.12.2.0.1-ee-i2b2.1.7.09-tm.release-18.1-nhanes"
+    },
+    "@id": "https://repo.metadatacenter.org/template-element-instances/fce8091e-34e4-42a3-a948-1a04770104d8"
+  },
+  "License for the Digital Object": [
+    {
+      "@context": {
+        "License Name": "https://schema.metadatacenter.net/properties/name",
+        "Landing Page of License": "http://www.w3.org/ns/dcat#landingPage"
+      },
+      "License Name": {
+        "@value": "Not applicable"
+      },
+      "Landing Page of License": {
+        "@value": null
+      },
+      "@id": "https://repo.metadatacenter.org/template-element-instances/9f9b9139-fef5-467b-982e-b79b16c68d90"
+    }
+  ],
+  "Distribution Location of the Digital Object": [
+    {
+      "@context": {
+        "553e02bb-5fb9-4f0d-91a4-dfa7d6a998db": "https://schema.metadatacenter.net/properties/553e02bb-5fb9-4f0d-91a4-dfa7d6a998db",
+        "da24c24c-12cd-495f-84c9-5a29c3da7fd1": "https://schema.metadatacenter.net/properties/da24c24c-12cd-495f-84c9-5a29c3da7fd1",
+        "Number of Digital Objects in Distribution": "https://schema.metadatacenter.net/properties/unit",
+        "Title of Distribution": "https://schema.metadatacenter.net/properties/title",
+        "Host Repository or Cloud Provider": "https://schema.metadatacenter.net/properties/provider",
+        "Description of Distribution": "https://schema.metadatacenter.net/properties/description",
+        "Size of Distribution (MB)": "https://schema.metadatacenter.net/properties/size",
+        "Landing Page of Distribution": "https://schema.metadatacenter.org/properties/aeca906d-f4b3-4ecb-94de-8d00c894c814",
+        "Primary Data Distribution": "https://schema.metadatacenter.org/properties/d9efe7c6-75b6-46a8-8be0-0defd0f7b6c5"
+      },
+      "Number of Digital Objects in Distribution": {
+        "@value": "1"
+      },
+      "Title of Distribution": {
+        "@value": "Docker Image for Oracle Database with NHANES dataset"
+      },
+      "Host Repository or Cloud Provider": {
+        "@value": "hub.docker.com"
+      },
+      "Description of Distribution": {
+        "@value": null
+      },
+      "Size of Distribution (MB)": {
+        "@value": "14GB"
+      },
+      "Landing Page of Distribution": {
+        "@value": ""
+      },
+      "Primary Data Distribution": {},
+      "@id": "https://repo.metadatacenter.org/template-element-instances/c743b55e-897c-45f5-8db8-3e0bfcdde9a2"
+    }
+  ],
+  "Characteristic of the Digital Object": [
+    {
+      "@context": {
+        "Measured or Observed Property": "https://schema.metadatacenter.net/properties/name",
+        "Summary of Acceptable Values": "https://schema.metadatacenter.net/properties/values",
+        "Description of Characteristic": "https://schema.metadatacenter.net/properties/description"
+      },
+      "Measured or Observed Property": {
+        "@value": "CDC NHANES dataset"
+      },
+      "Summary of Acceptable Values": {
+        "@value": null
+      },
+      "Description of Characteristic": {
+        "@value": null
+      },
+      "@id": "https://repo.metadatacenter.org/template-element-instances/4dde6e55-97c9-441b-a9e8-7eb6444a4eb7"
+    }
+  ],
+  "Funding Acknowledgement": [
+    {
+      "@context": {
+        "Identifier": "https://schema.metadatacenter.net/properties/identifier",
+        "Funding Body or Agency": "https://schema.metadatacenter.net/properties/funders",
+        "Acknowledgement Text": "https://schema.metadatacenter.org/properties/359996b5-e374-4e8a-9109-91126ac4f94e"
+      },
+      "Identifier": {
+        "@value": null
+      },
+      "Funding Body or Agency": {
+        "@value": "NIH"
+      },
+      "Acknowledgement Text": {
+        "@value": null
+      },
+      "@id": "https://repo.metadatacenter.org/template-element-instances/7805d4bf-edf9-459d-bbb7-80192f54a484"
+    }
+  ],
+  "Material Used to Create Digital Object": [
+    {
+      "@context": {
+        "Anatomical Summary": "https://schema.metadatacenter.net/properties/characteristics",
+        "Disease Summary": "https://schema.metadatacenter.net/properties/bearerOfDisease",
+        "Material Name": "https://schema.metadatacenter.net/properties/name",
+        "Organism": "https://schema.metadatacenter.net/properties/taxonomy",
+        "Description of Material": "https://schema.metadatacenter.net/properties/description"
+      },
+      "Anatomical Summary": {
+        "@value": null
+      },
+      "Disease Summary": [
+        {}
+      ],
+      "Material Name": {
+        "@value": "Docker"
+      },
+      "Organism": {
+        "@type": "http://data.bioontology.org/ontologies/NCIT/classes/http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C14250"
+      },
+      "Description of Material": {
+        "@value": null
+      },
+      "@id": "https://repo.metadatacenter.org/template-element-instances/28fc20aa-6af3-4c5b-8c2f-b49aa075bf06"
+    }
+  ],
+  "schema:isBasedOn": "https://repo.metadatacenter.org/templates/62c8b5f2-7dc9-4fff-9008-07c95a746411",
+  "schema:name": "CCP Digital Object metadata",
+  "schema:description": "Description of your digital object (or collection)",
+  "pav:createdOn": "2018-07-10T12:34:46-0700",
+  "pav:createdBy": "https://metadatacenter.org/users/912df685-4541-4753-a993-dd0585c4c640",
+  "pav:lastUpdatedOn": "2018-07-30T11:19:42-0700",
+  "oslc:modifiedBy": "https://metadatacenter.org/users/912df685-4541-4753-a993-dd0585c4c640",
+  "@id": "https://repo.metadatacenter.org/template-instances/a89639ce-08e7-4f40-8cbf-84a832b2aab5",
+  "Additional Information1": {
+    "@value": null
+  }
+}

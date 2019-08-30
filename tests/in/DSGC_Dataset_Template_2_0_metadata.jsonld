@@ -1,0 +1,225 @@
+{
+  "schema:isBasedOn": "https://repo.metadatacenter.net/templates/690eb70a-1a58-4cc3-b884-527e9ca2a001",
+  "@id": "https://repo.metadatacenter.org/template-instances/9122d7f4-2f0e-49de-8f9d-0fe521f68a83",
+  "pav:createdBy": "https://metadatacenter.org/users/4235957e-8373-4a93-8ba7-e97043c677b2",
+  "pav:createdOn": "2018-05-10T06:47:00-0700",
+  "schema:description": "Metadata template for dataset information",
+  "@context": {
+    "schema:isBasedOn": {
+      "@type": "@id"
+    },
+    "skos:notation": {
+      "@type": "xsd:string"
+    },
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "oslc:modifiedBy": {
+      "@type": "@id"
+    },
+    "schema:name": {
+      "@type": "xsd:string"
+    },
+    "oslc": "http://open-services.net/ns/core#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "datasetMetadata": "https://schema.metadatacenter.net/properties/datasetMetadata",
+    "schema": "http://schema.org/",
+    "rdfs:label": {
+      "@type": "xsd:string"
+    },
+    "pav:createdBy": {
+      "@type": "@id"
+    },
+    "pav:createdOn": {
+      "@type": "xsd:dateTime"
+    },
+    "pav:lastUpdatedOn": {
+      "@type": "xsd:dateTime"
+    },
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema:description": {
+      "@type": "xsd:string"
+    },
+    "Dataset Metadata Entity": "https://schema.metadatacenter.org/properties/0907e89f-8a32-49f6-bfb6-8831782fbb9f",
+    "pav": "http://purl.org/pav/"
+  },
+  "oslc:modifiedBy": "https://metadatacenter.org/users/4235957e-8373-4a93-8ba7-e97043c677b2",
+  "pav:lastUpdatedOn": "2018-05-10T06:47:00-0700",
+  "schema:name": "DSGC Dataset Template 2.0 metadata",
+  "Dataset Metadata Entity": {
+    "Assay name": [
+      {
+        "@value": "SWATH-MS"
+      }
+    ],
+    "Project": {
+      "@value": "LINCS Phase 2"
+    },
+    "Mapping to experimental metadata fields": {
+      "@value": null
+    },
+    "Principle investigator": {
+      "@value": "Danny"
+    },
+    "Processing pipeline": {
+      "@value": null
+    },
+    "Associated metadata entities": [
+      {
+        "@value": null
+      }
+    ],
+    "Dataset title": {
+      "@value": "SWATH Test"
+    },
+    "Associated reagent metadata categories": [
+      {
+        "@value": "Cell line"
+      },
+      {
+        "@value": "Small molecule"
+      },
+      {
+        "@value": "Antibody"
+      },
+      {
+        "@value": "Complimentary DNA (cDNA)"
+      }
+    ],
+    "Dataset authors": [
+      {
+        "@value": "Danny"
+      }
+    ],
+    "Dataset author affiliation": {
+      "@value": "HMS"
+    },
+    "Data format description location": {
+      "@value": null
+    },
+    "Area of study": [
+      {
+        "@value": "Proteomics"
+      }
+    ],
+    "Grant number": {
+      "@value": null
+    },
+    "Level 2 data location": {
+      "@value": null
+    },
+    "Dataset QC/QA information": {
+      "@value": null
+    },
+    "DSGC dataset website": {
+      "@value": null
+    },
+    "Dataset keywords": [
+      {
+        "@value": null
+      }
+    ],
+    "Data file description": {
+      "@value": null
+    },
+    "Dataset Description": {
+      "@value": "Proteomics testing"
+    },
+    "Related publications": [
+      {
+        "@value": null
+      }
+    ],
+    "Dataset Status": {
+      "@value": "New submission"
+    },
+    "Level 1 data location": {
+      "@value": null
+    },
+    "Endpoint": {
+      "@value": null
+    },
+    "Level 3 data location": {
+      "@value": null
+    },
+    "Signature category": {
+      "@value": null
+    },
+    "Level 0 data location": {
+      "@value": null
+    },
+    "Mapping to LINCS metadata standards specifications": {
+      "@value": null
+    },
+    "@context": {
+      "Assay name": "https://schema.metadatacenter.net/properties/assayName",
+      "Project": "https://schema.metadatacenter.org/properties/49844ef8-31ce-4fa9-8316-f5ebb05bf690",
+      "Mapping to experimental metadata fields": "https://schema.metadatacenter.net/properties/mappingToExperimentalMetadataFields",
+      "Principle investigator": "https://schema.metadatacenter.net/properties/principleInvestigator",
+      "Processing pipeline": "https://schema.metadatacenter.net/properties/processingPipeline",
+      "Associated metadata entities": "https://schema.metadatacenter.net/properties/associatedMetadataEntities",
+      "de85c4f9-5a7b-46f6-b449-7e0d7c9e26d8": "https://schema.metadatacenter.net/properties/de85c4f9-5a7b-46f6-b449-7e0d7c9e26d8",
+      "Dataset title": "https://schema.metadatacenter.net/properties/datasetTitle",
+      "Dataset QC/QA information": "https://schema.metadatacenter.net/properties/datasetQC/QAInformation",
+      "Associated reagent metadata categories": "https://schema.metadatacenter.net/properties/associatedReagentMetadataCategories",
+      "Dataset keywords": "https://schema.metadatacenter.net/properties/datasetKeywords",
+      "Dataset author affiliation": "https://schema.metadatacenter.net/properties/datasetAuthorAffiliation",
+      "Data format description location": "https://schema.metadatacenter.net/properties/dataFormatDescriptionLocation",
+      "Area of study": "https://schema.metadatacenter.net/properties/areaOfStudy",
+      "Grant number": "https://schema.metadatacenter.net/properties/grantNumber",
+      "Associated experimental variables": "https://schema.metadatacenter.net/properties/associatedExperimentalVariables",
+      "datasetID": "https://schema.metadatacenter.net/properties/datasetID",
+      "DSGC dataset website": "https://schema.metadatacenter.net/properties/dSGCDatasetWebsite",
+      "Dataset authors": "https://schema.metadatacenter.net/properties/819dd88d-94d6-4690-a221-ef6301921854",
+      "Data file description": "https://schema.metadatacenter.net/properties/dataFileDescription",
+      "Dataset Description": "https://schema.metadatacenter.net/properties/datasetDescription",
+      "citation": "https://schema.metadatacenter.net/properties/citation",
+      "lINCSLandingPage": "https://schema.metadatacenter.net/properties/lINCSLandingPage",
+      "Related publications": "https://schema.metadatacenter.net/properties/relatedPublications",
+      "Dataset Status": "https://schema.metadatacenter.org/properties/6d926724-e82e-4ca3-b728-63b4c2d160a5",
+      "Level 1 data location": "https://schema.metadatacenter.net/properties/level1DataLocation",
+      "Endpoint": "https://schema.metadatacenter.net/properties/endpoint",
+      "Level 3 data location": "https://schema.metadatacenter.net/properties/level3DataLocation",
+      "Signature category": "https://schema.metadatacenter.net/properties/signatureCategory",
+      "Level 0 data location": "https://schema.metadatacenter.net/properties/level0DataLocation",
+      "Assay protocol": "https://schema.metadatacenter.net/properties/assayProtocol",
+      "Mapping to LINCS metadata standards specifications": "https://schema.metadatacenter.net/properties/mappingToLINCSMetadataStandardsSpecifications",
+      "Assay description1": "https://schema.metadatacenter.net/properties/assayDescription1",
+      "Assay metadata file": "https://schema.metadatacenter.net/properties/assayMetadataFile",
+      "datasetVersion": "https://schema.metadatacenter.net/properties/datasetVersion",
+      "Dataset release date": "https://schema.metadatacenter.net/properties/datasetReleaseDate",
+      "Dataset file format": "https://schema.metadatacenter.net/properties/datasetFileFormat",
+      "Center Name": "https://schema.metadatacenter.net/properties/cdbcda02-3290-49b7-93a0-9538e93aba8d",
+      "Assay description": "https://schema.metadatacenter.net/properties/assayDescription",
+      "centerName": "https://schema.metadatacenter.net/properties/centerName",
+      "444f9bbf-6634-4e7f-9def-4fdc41470b02": "https://schema.metadatacenter.net/properties/444f9bbf-6634-4e7f-9def-4fdc41470b02",
+      "Level 2 data location": "https://schema.metadatacenter.net/properties/level2DataLocation"
+    },
+    "Assay protocol": {
+      "@value": null
+    },
+    "@id": "https://repo.metadatacenter.org/template-element-instances/f2469919-48f4-4a37-abad-892b7a303953",
+    "Assay description1": {
+      "@value": null
+    },
+    "Assay metadata file": {
+      "@value": null
+    },
+    "Dataset release date": {
+      "@value": "2018-5-9",
+      "@type": "xsd:date"
+    },
+    "Dataset file format": {
+      "@value": null
+    },
+    "Center Name": {
+      "@value": "HMS_LINCS"
+    },
+    "Assay description": {
+      "@value": null
+    },
+    "Associated experimental variables": [
+      {
+        "@value": null
+      }
+    ]
+  }
+}

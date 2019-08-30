@@ -1,0 +1,106 @@
+@prefix : <http://purl.org/nanopub/temp/c62c1058-0994-4ccf-8eff-02354ab8ba0f#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdfg: <http://www.w3.org/2004/03/trix/rdfg-1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dce: <http://purl.org/dc/elements/1.1/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix skos: <http://www.w3.org/TR/skos-reference/skos-owl1-dl#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix schema: <http://schema.org/> .
+@prefix cedar-user: <https://metadatacenter.org/users/> .
+@prefix cedar-temp: <https://repo.metadatacenter.org/templates/> .
+@prefix cedar-tempinst: <https://repo.metadatacenter.org/template-instances/> .
+@prefix cedar-tempelinst: <https://repo.metadatacenter.org/template-element-instances/> .
+@prefix cedar-prop: <https://schema.metadatacenter.org/properties/> .
+
+:Head {
+  : np:hasAssertion :assertion;
+    np:hasProvenance :provenance;
+    np:hasPublicationInfo :pubinfo;
+    a np:Nanopublication .
+}
+
+:assertion {
+  _:genid-e95ca240cc934c379cc3aad63659bcad-b1 a <http://data.bioontology.org/ontologies/NCIT/classes/http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C14250> .
+  
+  <http://data.bioontology.org/provisional_classes/69af5410-4b53-0136-2940-005056010074>
+    rdfs:label "Available" .
+  
+  <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68850> rdfs:label "True" .
+  
+  :subj <https://schema.metadatacenter.net/properties/778571e6-931a-4616-957d-1f8650d25ca7>
+      "2018-8-29"^^xsd:date;
+    <https://schema.metadatacenter.net/properties/availability> <http://data.bioontology.org/provisional_classes/69af5410-4b53-0136-2940-005056010074>;
+    <https://schema.metadatacenter.net/properties/creator> "Jong Cheol Jeong";
+    <https://schema.metadatacenter.net/properties/dataType> "Source Code";
+    <https://schema.metadatacenter.net/properties/datasetDescription> "Although Google Cloud Genomics and Sentieon pipelines support robust tools to obtain high quality VCFs from BAM files, obtaining VCF files from these pipelines is not a trivial task.  The problem is made worse when a BAM file has missing information in the header or an incomplete file structure to utilize GATK pipelines. The problem gets more complicated and challenging when the number of BAM files that needs to be processed is too large to rely on manual file management techniques and all of the files need to be transferred in and out of Google Cloud Storage. Therefore, we have implemented pipelines and source codes for producing VCF files from BAM files by utilizing Google Cloud Genomics and Sentieon pipelines.";
+    <https://schema.metadatacenter.net/properties/datasetTitle> "Tools and workflow to produce VCF files from BAM files using Google Cloud Pipelines";
+    <https://schema.metadatacenter.net/properties/keywords> "VCF; Sentieon; Google Genomics Pipeline; dsub; BAM; unmapped BAM, Google Cloud,GATK";
+    <https://schema.metadatacenter.net/properties/landingPage> "https://github.com/crimcc/bam2vcf";
+    <https://schema.metadatacenter.net/properties/resolvableDatasetID> "https://github.com/crimcc/bam2vcf";
+    <https://schema.metadatacenter.net/properties/storedIn> "https://github.com/crimcc/bam2vcf";
+    cedar-prop:13b975ed-c55d-4acb-92ea-e6876b25372b cedar-tempelinst:2cc35aee-6b06-4108-b947-d3879379648b;
+    cedar-prop:18f47165-eac4-4ac0-816b-e9e83e821d31 cedar-tempelinst:bd111e47-bc0e-4f6a-ad28-8832c3c6b794;
+    cedar-prop:6cd4a267-63f5-4cfa-9756-b72083afa92e cedar-tempelinst:c7061f64-178f-485a-af2e-15bf7503f2b7;
+    cedar-prop:95a78a71-e1f8-40d9-a388-7d8d71ffc32e <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68850>;
+    cedar-prop:9f961451-c949-41d1-9e21-30d601f11eb8 cedar-tempelinst:a311406b-ca59-4c1f-945a-15c89988b262;
+    cedar-prop:b4a9f45c-0dc2-4d56-ab75-3fee1ad53349 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68850>;
+    cedar-prop:c519582a-a94d-45fa-9e1a-08e5116b2e5e cedar-tempelinst:5765d6f4-e497-4eae-9299-86bb8e166fc5;
+    cedar-prop:f5609806-9c74-4a6d-a8ab-53df1febfe69 cedar-tempelinst:bfe71268-5601-4d70-9fda-384042df03c8 .
+  
+  cedar-tempelinst:2cc35aee-6b06-4108-b947-d3879379648b <https://schema.metadatacenter.net/properties/description>
+      "Although Google Cloud Genomics and Sentieon pipelines support robust tools to obtain high quality VCFs from BAM files, obtaining VCF files from these pipelines is not a trivial task.  The problem is made worse when a BAM file has missing information in the header or an incomplete file structure to utilize GATK pipelines. The problem gets more complicated and challenging when the number of BAM files that needs to be processed is too large to rely on manual file management techniques and all of the files need to be transferred in and out of Google Cloud Storage. Therefore, we have implemented pipelines and source codes for producing VCF files from BAM files by utilizing Google Cloud Genomics and Sentieon pipelines.";
+    <https://schema.metadatacenter.net/properties/name> "BAM files from DNA sequencing" .
+  
+  cedar-tempelinst:5765d6f4-e497-4eae-9299-86bb8e166fc5 <https://schema.metadatacenter.net/properties/funders>
+      "NIH Cloud Pilot";
+    <https://schema.metadatacenter.net/properties/identifier> "CCREQ-2017-03-00028" .
+  
+  cedar-tempelinst:a311406b-ca59-4c1f-945a-15c89988b262 <http://www.w3.org/ns/dcat#landingPage>
+      "https://github.com/crimcc/bam2vcf/blob/master/LICENSE";
+    <https://schema.metadatacenter.net/properties/name> "Copyright 2018, UK Cancer Research Informatics" .
+  
+  cedar-tempelinst:bd111e47-bc0e-4f6a-ad28-8832c3c6b794 <https://schema.metadatacenter.net/properties/bearerOfDisease>
+      _:genid-e95ca240cc934c379cc3aad63659bcad-b0;
+    <https://schema.metadatacenter.net/properties/description> "Although Google Cloud Genomics and Sentieon pipelines support robust tools to obtain high quality VCFs from BAM files, obtaining VCF files from these pipelines is not a trivial task.  The problem is made worse when a BAM file has missing information in the header or an incomplete file structure to utilize GATK pipelines. The problem gets more complicated and challenging when the number of BAM files that needs to be processed is too large to rely on manual file management techniques and all of the files need to be transferred in and out of Google Cloud Storage. Therefore, we have implemented pipelines and source codes for producing VCF files from BAM files by utilizing Google Cloud Genomics and Sentieon pipelines.";
+    <https://schema.metadatacenter.net/properties/name> "Tools and workflow to produce VCF files from BAM files using Google Cloud Pipelines";
+    <https://schema.metadatacenter.net/properties/taxonomy> _:genid-e95ca240cc934c379cc3aad63659bcad-b1 .
+  
+  cedar-tempelinst:bfe71268-5601-4d70-9fda-384042df03c8 <http://purl.org/ontology/bibo/abstract>
+      "Although Google Cloud Genomics and Sentieon pipelines support robust tools to obtain high quality VCFs from BAM files, obtaining VCF files from these pipelines is not a trivial task.  The problem is made worse when a BAM file has missing information in the header or an incomplete file structure to utilize GATK pipelines. The problem gets more complicated and challenging when the number of BAM files that needs to be processed is too large to rely on manual file management techniques and all of the files need to be transferred in and out of Google Cloud Storage. Therefore, we have implemented pipelines and source codes for producing VCF files from BAM files by utilizing Google Cloud Genomics and Sentieon pipelines.";
+    <https://schema.metadatacenter.net/properties/acknowledges> "NIH Cloud Pilot";
+    <https://schema.metadatacenter.net/properties/authors> "Jong Cheol Jeong";
+    <https://schema.metadatacenter.net/properties/date> "2018-8-29"^^xsd:date;
+    <https://schema.metadatacenter.net/properties/iD> "https://github.com/crimcc/bam2vcf";
+    <https://schema.metadatacenter.net/properties/publicationVenue> "Github";
+    <https://schema.metadatacenter.net/properties/title> "Tools and workflow to produce VCF files from BAM files using Google Cloud Pipelines" .
+  
+  cedar-tempelinst:c7061f64-178f-485a-af2e-15bf7503f2b7 <https://schema.metadatacenter.net/properties/description>
+      "Although Google Cloud Genomics and Sentieon pipelines support robust tools to obtain high quality VCFs from BAM files, obtaining VCF files from these pipelines is not a trivial task.  The problem is made worse when a BAM file has missing information in the header or an incomplete file structure to utilize GATK pipelines. The problem gets more complicated and challenging when the number of BAM files that needs to be processed is too large to rely on manual file management techniques and all of the files need to be transferred in and out of Google Cloud Storage. Therefore, we have implemented pipelines and source codes for producing VCF files from BAM files by utilizing Google Cloud Genomics and Sentieon pipelines.";
+    <https://schema.metadatacenter.net/properties/provider> "https://github.com/crimcc/bam2vcf";
+    <https://schema.metadatacenter.net/properties/size> "1.1MB";
+    <https://schema.metadatacenter.net/properties/title> "Tools and workflow to produce VCF files from BAM files using Google Cloud Pipelines";
+    <https://schema.metadatacenter.net/properties/unit> "1";
+    cedar-prop:aeca906d-f4b3-4ecb-94de-8d00c894c814 "https://github.com/crimcc/bam2vcf";
+    cedar-prop:d9efe7c6-75b6-46a8-8be0-0defd0f7b6c5 <http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68850> .
+}
+
+:provenance {
+  :assertion pav:authoredBy cedar-user:694986cc-591a-4f4e-a2e3-b208c2b57adb .
+}
+
+:pubinfo {
+  : dct:created "2019-03-26T07:03:16-0700"^^xsd:dateTime;
+    dct:creator cedar-user:694986cc-591a-4f4e-a2e3-b208c2b57adb;
+    dct:hasVersion : .
+  
+  cedar-tempinst:c62c1058-0994-4ccf-8eff-02354ab8ba0f pav:createdBy cedar-user:694986cc-591a-4f4e-a2e3-b208c2b57adb;
+    pav:createdOn "2018-08-31T14:01:53-0700"^^xsd:dateTime;
+    schema:description "Although Google Cloud Genomics and Sentieon pipelines support robust tools to obtain high quality VCFs from BAM files, obtaining VCF files from these pipelines is not a trivial task. The problem is made worse when a BAM file has missing information in the header or an incomplete file structure to utilize GATK pipelines. The problem gets more complicated and challenging when the number of BAM files that needs to be processed is too large to rely on manual file management techniques and all of the files need to be transferred in and out of Google Cloud Storage. Therefore, we have implemented pipelines and source codes for producing VCF files from BAM files by utilizing Google Cloud Genomics and Sentieon pipelines.";
+    schema:isBasedOn cedar-temp:62c8b5f2-7dc9-4fff-9008-07c95a746411;
+    schema:name "CCP Digital Object metadata BAM2VCF" .
+}
