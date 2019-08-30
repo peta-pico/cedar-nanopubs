@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Nanopublications</title>
+<style>
+body { margin: 20px; font-family: monaco,monospace; font-size: 11pt; color: #444; }
+a { color: #000; text-decoration: none; }
+a:hover { color: #666; }
+.nanopub { margin: 0 0 30px 0; padding: 0px 10px 10px 10px; border-radius: 10px; border: solid; border-width: 1px; }
+.nanopub-prefixes { margin-top: 10px; }
+.nanopub-head { background: #e8e8e8; padding: 10px; margin-top: 10px; border-radius: 10px; }
+.nanopub-assertion { background: #99ccff; padding: 10px; margin-top: 10px; border-radius: 10px; }
+.nanopub-provenance { background: #f3a08c; padding: 10px; margin-top: 10px; border-radius: 10px; }
+.nanopub-pubinfo { background: #ffff66; padding: 10px; margin-top: 10px; border-radius: 10px; }
+</style>
+</head>
+<body>
+<div class="nanopub">
+<div class="nanopub-prefixes">
+@prefix this: &lt;<a href="http://purl.org/np/RAn_9ED71VluAc8GJe9ySx0_pDrBTiZP4_uY-FUqiGcNA">http://purl.org/np/RAn_9ED71VluAc8GJe9ySx0_pDrBTiZP4_uY-FUqiGcNA</a>&gt; .<br/>
+@prefix sub: &lt;<a href="http://purl.org/np/RAn_9ED71VluAc8GJe9ySx0_pDrBTiZP4_uY-FUqiGcNA#">http://purl.org/np/RAn_9ED71VluAc8GJe9ySx0_pDrBTiZP4_uY-FUqiGcNA#</a>&gt; .<br/>
+@prefix rdfs: &lt;<a href="http://www.w3.org/2000/01/rdf-schema#">http://www.w3.org/2000/01/rdf-schema#</a>&gt; .<br/>
+@prefix xsd: &lt;<a href="http://www.w3.org/2001/XMLSchema#">http://www.w3.org/2001/XMLSchema#</a>&gt; .<br/>
+@prefix dct: &lt;<a href="http://purl.org/dc/terms/">http://purl.org/dc/terms/</a>&gt; .<br/>
+@prefix pav: &lt;<a href="http://purl.org/pav/">http://purl.org/pav/</a>&gt; .<br/>
+@prefix np: &lt;<a href="http://www.nanopub.org/nschema#">http://www.nanopub.org/nschema#</a>&gt; .<br/>
+@prefix schema: &lt;<a href="http://schema.org/">http://schema.org/</a>&gt; .<br/>
+@prefix cedar-user: &lt;<a href="https://metadatacenter.org/users/">https://metadatacenter.org/users/</a>&gt; .<br/>
+@prefix cedar-temp: &lt;<a href="https://repo.metadatacenter.org/templates/">https://repo.metadatacenter.org/templates/</a>&gt; .<br/>
+@prefix cedar-tempinst: &lt;<a href="https://repo.metadatacenter.org/template-instances/">https://repo.metadatacenter.org/template-instances/</a>&gt; .<br/>
+@prefix cedar-tempelinst: &lt;<a href="https://repo.metadatacenter.org/template-element-instances/">https://repo.metadatacenter.org/template-element-instances/</a>&gt; .<br/>
+@prefix cedar-prop: &lt;<a href="https://schema.metadatacenter.org/properties/">https://schema.metadatacenter.org/properties/</a>&gt; .<br/>
+
+</div>
+<div class="nanopub-head">
+<span class="nanopub-context-switch"><a href="http://purl.org/np/RAn_9ED71VluAc8GJe9ySx0_pDrBTiZP4_uY-FUqiGcNA#Head">sub:Head</a> {<br/></span>
+&nbsp;&nbsp;<a href="http://purl.org/np/RAn_9ED71VluAc8GJe9ySx0_pDrBTiZP4_uY-FUqiGcNA">this:</a> <a href="http://www.nanopub.org/nschema#hasAssertion">np:hasAssertion</a> <a href="http://purl.org/np/RAn_9ED71VluAc8GJe9ySx0_pDrBTiZP4_uY-FUqiGcNA#assertion">sub:assertion</a> ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.nanopub.org/nschema#hasProvenance">np:hasProvenance</a> <a href="http://purl.org/np/RAn_9ED71VluAc8GJe9ySx0_pDrBTiZP4_uY-FUqiGcNA#provenance">sub:provenance</a> ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.nanopub.org/nschema#hasPublicationInfo">np:hasPublicationInfo</a> <a href="http://purl.org/np/RAn_9ED71VluAc8GJe9ySx0_pDrBTiZP4_uY-FUqiGcNA#pubinfo">sub:pubinfo</a> ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">a</a> <a href="http://www.nanopub.org/nschema#Nanopublication">np:Nanopublication</a> . <br/>
+<span class="nanopub-context-switch">}<br/></span>
+</div>
+<div class="nanopub-assertion">
+<span class="nanopub-context-switch"><a href="http://purl.org/np/RAn_9ED71VluAc8GJe9ySx0_pDrBTiZP4_uY-FUqiGcNA#assertion">sub:assertion</a> {<br/></span>
+&nbsp;&nbsp;&lt;<a href="http://data.bioontology.org/provisional_classes/69af5410-4b53-0136-2940-005056010074">http://data.bioontology.org/provisional_classes/69af5410-4b53-0136-2940-005056010074</a>&gt; <a href="http://www.w3.org/2000/01/rdf-schema#label">rdfs:label</a> "Available" . <br/>
+&nbsp;&nbsp;&lt;<a href="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68850">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68850</a>&gt; <a href="http://www.w3.org/2000/01/rdf-schema#label">rdfs:label</a> "True" . <br/>
+&nbsp;&nbsp;&lt;<a href="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68851">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68851</a>&gt; <a href="http://www.w3.org/2000/01/rdf-schema#label">rdfs:label</a> "False" . <br/>
+&nbsp;&nbsp;<a href="http://purl.org/np/RAn_9ED71VluAc8GJe9ySx0_pDrBTiZP4_uY-FUqiGcNA#_1">sub:_1</a> <a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">a</a> &lt;<a href="http://data.bioontology.org/ontologies/NCIT/classes/http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C14250">http://data.bioontology.org/ontologies/NCIT/classes/http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C14250</a>&gt; . <br/>
+&nbsp;&nbsp;<a href="http://purl.org/np/RAn_9ED71VluAc8GJe9ySx0_pDrBTiZP4_uY-FUqiGcNA#subj">sub:subj</a> <a href="http://purl.org/dc/terms/modified">dct:modified</a> "2018-7-8"^^<a href="http://www.w3.org/2001/XMLSchema#date">xsd:date</a> ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;<a href="https://schema.metadatacenter.net/properties/778571e6-931a-4616-957d-1f8650d25ca7">https://schema.metadatacenter.net/properties/778571e6-931a-4616-957d-1f8650d25ca7</a>&gt; "2018-7-8"^^<a href="http://www.w3.org/2001/XMLSchema#date">xsd:date</a> ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;<a href="https://schema.metadatacenter.net/properties/availability">https://schema.metadatacenter.net/properties/availability</a>&gt; &lt;<a href="http://data.bioontology.org/provisional_classes/69af5410-4b53-0136-2940-005056010074">http://data.bioontology.org/provisional_classes/69af5410-4b53-0136-2940-005056010074</a>&gt; ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;<a href="https://schema.metadatacenter.net/properties/creator">https://schema.metadatacenter.net/properties/creator</a>&gt; "https://avillach-lab.hms.harvard.edu" ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;<a href="https://schema.metadatacenter.net/properties/dataType">https://schema.metadatacenter.net/properties/dataType</a>&gt; "Unspecified" ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;<a href="https://schema.metadatacenter.net/properties/datasetDescription">https://schema.metadatacenter.net/properties/datasetDescription</a>&gt; "Oracle Database is pre-populated with the CDC NHANES public dataset (41,474 patients with ~1,300 variables)" ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;<a href="https://schema.metadatacenter.net/properties/datasetTitle">https://schema.metadatacenter.net/properties/datasetTitle</a>&gt; "Docker Image for Oracle Database with NHANES dataset" ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;<a href="https://schema.metadatacenter.net/properties/keywords">https://schema.metadatacenter.net/properties/keywords</a>&gt; "NHANES" ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;<a href="https://schema.metadatacenter.net/properties/landingPage">https://schema.metadatacenter.net/properties/landingPage</a>&gt; "https://github.com/hms-dbmi/avillachlab-digital-objects/blob/master/oracle.12.2.0.1-ee-i2b2.1.7.09-tm.release-18.1-nhanes.md" ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;<a href="https://schema.metadatacenter.net/properties/resolvableDatasetID">https://schema.metadatacenter.net/properties/resolvableDatasetID</a>&gt; "dbmi/i2b2transmart-db:oracle.12.2.0.1-ee-i2b2.1.7.09-tm.release-18.1-nhanes" ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;<a href="https://schema.metadatacenter.net/properties/storedIn">https://schema.metadatacenter.net/properties/storedIn</a>&gt; "hub.docker.com" ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://schema.metadatacenter.org/properties/13b975ed-c55d-4acb-92ea-e6876b25372b">cedar-prop:13b975ed-c55d-4acb-92ea-e6876b25372b</a> <a href="https://repo.metadatacenter.org/template-element-instances/4dde6e55-97c9-441b-a9e8-7eb6444a4eb7">cedar-tempelinst:4dde6e55-97c9-441b-a9e8-7eb6444a4eb7</a> ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://schema.metadatacenter.org/properties/18f47165-eac4-4ac0-816b-e9e83e821d31">cedar-prop:18f47165-eac4-4ac0-816b-e9e83e821d31</a> <a href="https://repo.metadatacenter.org/template-element-instances/28fc20aa-6af3-4c5b-8c2f-b49aa075bf06">cedar-tempelinst:28fc20aa-6af3-4c5b-8c2f-b49aa075bf06</a> ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://schema.metadatacenter.org/properties/6cd4a267-63f5-4cfa-9756-b72083afa92e">cedar-prop:6cd4a267-63f5-4cfa-9756-b72083afa92e</a> <a href="https://repo.metadatacenter.org/template-element-instances/c743b55e-897c-45f5-8db8-3e0bfcdde9a2">cedar-tempelinst:c743b55e-897c-45f5-8db8-3e0bfcdde9a2</a> ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://schema.metadatacenter.org/properties/95a78a71-e1f8-40d9-a388-7d8d71ffc32e">cedar-prop:95a78a71-e1f8-40d9-a388-7d8d71ffc32e</a> &lt;<a href="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68850">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68850</a>&gt; ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://schema.metadatacenter.org/properties/9f961451-c949-41d1-9e21-30d601f11eb8">cedar-prop:9f961451-c949-41d1-9e21-30d601f11eb8</a> <a href="https://repo.metadatacenter.org/template-element-instances/9f9b9139-fef5-467b-982e-b79b16c68d90">cedar-tempelinst:9f9b9139-fef5-467b-982e-b79b16c68d90</a> ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://schema.metadatacenter.org/properties/b4a9f45c-0dc2-4d56-ab75-3fee1ad53349">cedar-prop:b4a9f45c-0dc2-4d56-ab75-3fee1ad53349</a> &lt;<a href="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68851">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C68851</a>&gt; ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://schema.metadatacenter.org/properties/c519582a-a94d-45fa-9e1a-08e5116b2e5e">cedar-prop:c519582a-a94d-45fa-9e1a-08e5116b2e5e</a> <a href="https://repo.metadatacenter.org/template-element-instances/7805d4bf-edf9-459d-bbb7-80192f54a484">cedar-tempelinst:7805d4bf-edf9-459d-bbb7-80192f54a484</a> ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://schema.metadatacenter.org/properties/f5609806-9c74-4a6d-a8ab-53df1febfe69">cedar-prop:f5609806-9c74-4a6d-a8ab-53df1febfe69</a> <a href="https://repo.metadatacenter.org/template-element-instances/fce8091e-34e4-42a3-a948-1a04770104d8">cedar-tempelinst:fce8091e-34e4-42a3-a948-1a04770104d8</a> . <br/>
+&nbsp;&nbsp;<a href="https://repo.metadatacenter.org/template-element-instances/28fc20aa-6af3-4c5b-8c2f-b49aa075bf06">cedar-tempelinst:28fc20aa-6af3-4c5b-8c2f-b49aa075bf06</a> &lt;<a href="https://schema.metadatacenter.net/properties/bearerOfDisease">https://schema.metadatacenter.net/properties/bearerOfDisease</a>&gt; <a href="http://purl.org/np/RAn_9ED71VluAc8GJe9ySx0_pDrBTiZP4_uY-FUqiGcNA#_2">sub:_2</a> ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;<a href="https://schema.metadatacenter.net/properties/name">https://schema.metadatacenter.net/properties/name</a>&gt; "Docker" ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;<a href="https://schema.metadatacenter.net/properties/taxonomy">https://schema.metadatacenter.net/properties/taxonomy</a>&gt; <a href="http://purl.org/np/RAn_9ED71VluAc8GJe9ySx0_pDrBTiZP4_uY-FUqiGcNA#_1">sub:_1</a> . <br/>
+&nbsp;&nbsp;<a href="https://repo.metadatacenter.org/template-element-instances/4dde6e55-97c9-441b-a9e8-7eb6444a4eb7">cedar-tempelinst:4dde6e55-97c9-441b-a9e8-7eb6444a4eb7</a> &lt;<a href="https://schema.metadatacenter.net/properties/name">https://schema.metadatacenter.net/properties/name</a>&gt; "CDC NHANES dataset" . <br/>
+&nbsp;&nbsp;<a href="https://repo.metadatacenter.org/template-element-instances/7805d4bf-edf9-459d-bbb7-80192f54a484">cedar-tempelinst:7805d4bf-edf9-459d-bbb7-80192f54a484</a> &lt;<a href="https://schema.metadatacenter.net/properties/funders">https://schema.metadatacenter.net/properties/funders</a>&gt; "NIH" . <br/>
+&nbsp;&nbsp;<a href="https://repo.metadatacenter.org/template-element-instances/9f9b9139-fef5-467b-982e-b79b16c68d90">cedar-tempelinst:9f9b9139-fef5-467b-982e-b79b16c68d90</a> &lt;<a href="https://schema.metadatacenter.net/properties/name">https://schema.metadatacenter.net/properties/name</a>&gt; "Not applicable" . <br/>
+&nbsp;&nbsp;<a href="https://repo.metadatacenter.org/template-element-instances/c743b55e-897c-45f5-8db8-3e0bfcdde9a2">cedar-tempelinst:c743b55e-897c-45f5-8db8-3e0bfcdde9a2</a> &lt;<a href="https://schema.metadatacenter.net/properties/provider">https://schema.metadatacenter.net/properties/provider</a>&gt; "hub.docker.com" ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;<a href="https://schema.metadatacenter.net/properties/size">https://schema.metadatacenter.net/properties/size</a>&gt; "14GB" ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;<a href="https://schema.metadatacenter.net/properties/title">https://schema.metadatacenter.net/properties/title</a>&gt; "Docker Image for Oracle Database with NHANES dataset" ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;<a href="https://schema.metadatacenter.net/properties/unit">https://schema.metadatacenter.net/properties/unit</a>&gt; "1" ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://schema.metadatacenter.org/properties/aeca906d-f4b3-4ecb-94de-8d00c894c814">cedar-prop:aeca906d-f4b3-4ecb-94de-8d00c894c814</a> "" ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://schema.metadatacenter.org/properties/d9efe7c6-75b6-46a8-8be0-0defd0f7b6c5">cedar-prop:d9efe7c6-75b6-46a8-8be0-0defd0f7b6c5</a> <a href="http://purl.org/np/RAn_9ED71VluAc8GJe9ySx0_pDrBTiZP4_uY-FUqiGcNA#_3">sub:_3</a> . <br/>
+&nbsp;&nbsp;<a href="https://repo.metadatacenter.org/template-element-instances/fce8091e-34e4-42a3-a948-1a04770104d8">cedar-tempelinst:fce8091e-34e4-42a3-a948-1a04770104d8</a> &lt;<a href="https://schema.metadatacenter.net/properties/authors">https://schema.metadatacenter.net/properties/authors</a>&gt; "https://avillach-lab.hms.harvard.edu" ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;<a href="https://schema.metadatacenter.net/properties/iD">https://schema.metadatacenter.net/properties/iD</a>&gt; "dbmi/i2b2transmart-db:oracle.12.2.0.1-ee-i2b2.1.7.09-tm.release-18.1-nhanes" ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;<a href="https://schema.metadatacenter.net/properties/title">https://schema.metadatacenter.net/properties/title</a>&gt; "Docker Image for Oracle Database with NHANES dataset" . <br/>
+<span class="nanopub-context-switch">}<br/></span>
+</div>
+<div class="nanopub-provenance">
+<span class="nanopub-context-switch"><a href="http://purl.org/np/RAn_9ED71VluAc8GJe9ySx0_pDrBTiZP4_uY-FUqiGcNA#provenance">sub:provenance</a> {<br/></span>
+&nbsp;&nbsp;<a href="http://purl.org/np/RAn_9ED71VluAc8GJe9ySx0_pDrBTiZP4_uY-FUqiGcNA#assertion">sub:assertion</a> <a href="http://purl.org/pav/authoredBy">pav:authoredBy</a> <a href="https://metadatacenter.org/users/912df685-4541-4753-a993-dd0585c4c640">cedar-user:912df685-4541-4753-a993-dd0585c4c640</a> . <br/>
+<span class="nanopub-context-switch">}<br/></span>
+</div>
+<div class="nanopub-pubinfo">
+<span class="nanopub-context-switch"><a href="http://purl.org/np/RAn_9ED71VluAc8GJe9ySx0_pDrBTiZP4_uY-FUqiGcNA#pubinfo">sub:pubinfo</a> {<br/></span>
+&nbsp;&nbsp;<a href="http://purl.org/np/RAn_9ED71VluAc8GJe9ySx0_pDrBTiZP4_uY-FUqiGcNA">this:</a> <a href="http://purl.org/dc/terms/created">dct:created</a> "2018-07-30T11:19:42-0700"^^<a href="http://www.w3.org/2001/XMLSchema#dateTime">xsd:dateTime</a> ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://purl.org/dc/terms/creator">dct:creator</a> <a href="https://metadatacenter.org/users/912df685-4541-4753-a993-dd0585c4c640">cedar-user:912df685-4541-4753-a993-dd0585c4c640</a> ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://purl.org/dc/terms/hasVersion">dct:hasVersion</a> <a href="http://purl.org/np/RAn_9ED71VluAc8GJe9ySx0_pDrBTiZP4_uY-FUqiGcNA">this:</a> . <br/>
+&nbsp;&nbsp;<a href="https://repo.metadatacenter.org/template-instances/a89639ce-08e7-4f40-8cbf-84a832b2aab5">cedar-tempinst:a89639ce-08e7-4f40-8cbf-84a832b2aab5</a> <a href="http://purl.org/pav/createdBy">pav:createdBy</a> <a href="https://metadatacenter.org/users/912df685-4541-4753-a993-dd0585c4c640">cedar-user:912df685-4541-4753-a993-dd0585c4c640</a> ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://purl.org/pav/createdOn">pav:createdOn</a> "2018-07-10T12:34:46-0700"^^<a href="http://www.w3.org/2001/XMLSchema#dateTime">xsd:dateTime</a> ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://schema.org/description">schema:description</a> "Description of your digital object (or collection)" ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://schema.org/isBasedOn">schema:isBasedOn</a> <a href="https://repo.metadatacenter.org/templates/62c8b5f2-7dc9-4fff-9008-07c95a746411">cedar-temp:62c8b5f2-7dc9-4fff-9008-07c95a746411</a> ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://schema.org/name">schema:name</a> "CCP Digital Object metadata" . <br/>
+<span class="nanopub-context-switch">}<br/></span>
+</div>
+</div>
