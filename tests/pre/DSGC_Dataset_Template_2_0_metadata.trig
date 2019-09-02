@@ -50,10 +50,10 @@
 
 :pubinfo {
   : dct:created "2018-05-10T06:47:00-0700"^^xsd:dateTime;
-    dct:creator cedar-user:4235957e-8373-4a93-8ba7-e97043c677b2;
-    dct:hasVersion : .
+    dct:creator cedar-user:4235957e-8373-4a93-8ba7-e97043c677b2 .
   
-  cedar-tempinst:9122d7f4-2f0e-49de-8f9d-0fe521f68a83 pav:createdBy cedar-user:4235957e-8373-4a93-8ba7-e97043c677b2;
+  cedar-tempinst:9122d7f4-2f0e-49de-8f9d-0fe521f68a83 dct:hasVersion :;
+    pav:createdBy cedar-user:4235957e-8373-4a93-8ba7-e97043c677b2;
     pav:createdOn "2018-05-10T06:47:00-0700"^^xsd:dateTime;
     schema:description "Metadata template for dataset information";
     schema:isBasedOn <https://repo.metadatacenter.net/templates/690eb70a-1a58-4cc3-b884-527e9ca2a001>;

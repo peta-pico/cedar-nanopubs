@@ -1,5 +1,5 @@
-@prefix this: <http://purl.org/np/RAn_9ED71VluAc8GJe9ySx0_pDrBTiZP4_uY-FUqiGcNA> .
-@prefix sub: <http://purl.org/np/RAn_9ED71VluAc8GJe9ySx0_pDrBTiZP4_uY-FUqiGcNA#> .
+@prefix this: <http://purl.org/np/RAOcjSZjquM8ORW3gTAwEJdQ9tLU-c6IuqTB8G8yR7e9k> .
+@prefix sub: <http://purl.org/np/RAOcjSZjquM8ORW3gTAwEJdQ9tLU-c6IuqTB8G8yR7e9k#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
@@ -84,10 +84,10 @@ sub:provenance {
 
 sub:pubinfo {
   this: dct:created "2018-07-30T11:19:42-0700"^^xsd:dateTime;
-    dct:creator cedar-user:912df685-4541-4753-a993-dd0585c4c640;
-    dct:hasVersion this: .
+    dct:creator cedar-user:912df685-4541-4753-a993-dd0585c4c640 .
   
-  cedar-tempinst:a89639ce-08e7-4f40-8cbf-84a832b2aab5 pav:createdBy cedar-user:912df685-4541-4753-a993-dd0585c4c640;
+  cedar-tempinst:a89639ce-08e7-4f40-8cbf-84a832b2aab5 dct:hasVersion this:;
+    pav:createdBy cedar-user:912df685-4541-4753-a993-dd0585c4c640;
     pav:createdOn "2018-07-10T12:34:46-0700"^^xsd:dateTime;
     schema:description "Description of your digital object (or collection)";
     schema:isBasedOn cedar-temp:62c8b5f2-7dc9-4fff-9008-07c95a746411;

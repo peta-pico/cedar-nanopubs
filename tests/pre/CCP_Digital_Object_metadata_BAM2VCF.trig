@@ -25,7 +25,7 @@
 }
 
 :assertion {
-  _:genid-e95ca240cc934c379cc3aad63659bcad-b1 a <http://data.bioontology.org/ontologies/NCIT/classes/http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C14250> .
+  _:genid-9fcc60f18c384ee3aa8fa7c4bcb1e696-b1 a <http://data.bioontology.org/ontologies/NCIT/classes/http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C14250> .
   
   <http://data.bioontology.org/provisional_classes/69af5410-4b53-0136-2940-005056010074>
     rdfs:label "Available" .
@@ -65,10 +65,10 @@
     <https://schema.metadatacenter.net/properties/name> "Copyright 2018, UK Cancer Research Informatics" .
   
   cedar-tempelinst:bd111e47-bc0e-4f6a-ad28-8832c3c6b794 <https://schema.metadatacenter.net/properties/bearerOfDisease>
-      _:genid-e95ca240cc934c379cc3aad63659bcad-b0;
+      _:genid-9fcc60f18c384ee3aa8fa7c4bcb1e696-b0;
     <https://schema.metadatacenter.net/properties/description> "Although Google Cloud Genomics and Sentieon pipelines support robust tools to obtain high quality VCFs from BAM files, obtaining VCF files from these pipelines is not a trivial task.  The problem is made worse when a BAM file has missing information in the header or an incomplete file structure to utilize GATK pipelines. The problem gets more complicated and challenging when the number of BAM files that needs to be processed is too large to rely on manual file management techniques and all of the files need to be transferred in and out of Google Cloud Storage. Therefore, we have implemented pipelines and source codes for producing VCF files from BAM files by utilizing Google Cloud Genomics and Sentieon pipelines.";
     <https://schema.metadatacenter.net/properties/name> "Tools and workflow to produce VCF files from BAM files using Google Cloud Pipelines";
-    <https://schema.metadatacenter.net/properties/taxonomy> _:genid-e95ca240cc934c379cc3aad63659bcad-b1 .
+    <https://schema.metadatacenter.net/properties/taxonomy> _:genid-9fcc60f18c384ee3aa8fa7c4bcb1e696-b1 .
   
   cedar-tempelinst:bfe71268-5601-4d70-9fda-384042df03c8 <http://purl.org/ontology/bibo/abstract>
       "Although Google Cloud Genomics and Sentieon pipelines support robust tools to obtain high quality VCFs from BAM files, obtaining VCF files from these pipelines is not a trivial task.  The problem is made worse when a BAM file has missing information in the header or an incomplete file structure to utilize GATK pipelines. The problem gets more complicated and challenging when the number of BAM files that needs to be processed is too large to rely on manual file management techniques and all of the files need to be transferred in and out of Google Cloud Storage. Therefore, we have implemented pipelines and source codes for producing VCF files from BAM files by utilizing Google Cloud Genomics and Sentieon pipelines.";
@@ -95,10 +95,10 @@
 
 :pubinfo {
   : dct:created "2019-03-26T07:03:16-0700"^^xsd:dateTime;
-    dct:creator cedar-user:694986cc-591a-4f4e-a2e3-b208c2b57adb;
-    dct:hasVersion : .
+    dct:creator cedar-user:694986cc-591a-4f4e-a2e3-b208c2b57adb .
   
-  cedar-tempinst:c62c1058-0994-4ccf-8eff-02354ab8ba0f pav:createdBy cedar-user:694986cc-591a-4f4e-a2e3-b208c2b57adb;
+  cedar-tempinst:c62c1058-0994-4ccf-8eff-02354ab8ba0f dct:hasVersion :;
+    pav:createdBy cedar-user:694986cc-591a-4f4e-a2e3-b208c2b57adb;
     pav:createdOn "2018-08-31T14:01:53-0700"^^xsd:dateTime;
     schema:description "Although Google Cloud Genomics and Sentieon pipelines support robust tools to obtain high quality VCFs from BAM files, obtaining VCF files from these pipelines is not a trivial task. The problem is made worse when a BAM file has missing information in the header or an incomplete file structure to utilize GATK pipelines. The problem gets more complicated and challenging when the number of BAM files that needs to be processed is too large to rely on manual file management techniques and all of the files need to be transferred in and out of Google Cloud Storage. Therefore, we have implemented pipelines and source codes for producing VCF files from BAM files by utilizing Google Cloud Genomics and Sentieon pipelines.";
     schema:isBasedOn cedar-temp:62c8b5f2-7dc9-4fff-9008-07c95a746411;

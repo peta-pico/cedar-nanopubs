@@ -25,7 +25,7 @@
 }
 
 :assertion {
-  _:genid-9936221d90b147b8b3efca8b57900297-b1 a <http://data.bioontology.org/ontologies/NCIT/classes/http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C14250> .
+  _:genid-3d8721e939934a06afe076cb0bf2c6af-b1 a <http://data.bioontology.org/ontologies/NCIT/classes/http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C14250> .
   
   <http://data.bioontology.org/provisional_classes/69af5410-4b53-0136-2940-005056010074>
     rdfs:label "Available" .
@@ -56,9 +56,9 @@
     cedar-prop:f5609806-9c74-4a6d-a8ab-53df1febfe69 cedar-tempelinst:fce8091e-34e4-42a3-a948-1a04770104d8 .
   
   cedar-tempelinst:28fc20aa-6af3-4c5b-8c2f-b49aa075bf06 <https://schema.metadatacenter.net/properties/bearerOfDisease>
-      _:genid-9936221d90b147b8b3efca8b57900297-b0;
+      _:genid-3d8721e939934a06afe076cb0bf2c6af-b0;
     <https://schema.metadatacenter.net/properties/name> "Docker";
-    <https://schema.metadatacenter.net/properties/taxonomy> _:genid-9936221d90b147b8b3efca8b57900297-b1 .
+    <https://schema.metadatacenter.net/properties/taxonomy> _:genid-3d8721e939934a06afe076cb0bf2c6af-b1 .
   
   cedar-tempelinst:4dde6e55-97c9-441b-a9e8-7eb6444a4eb7 <https://schema.metadatacenter.net/properties/name>
       "CDC NHANES dataset" .
@@ -75,7 +75,7 @@
     <https://schema.metadatacenter.net/properties/title> "Docker Image for Oracle Database with NHANES dataset";
     <https://schema.metadatacenter.net/properties/unit> "1";
     cedar-prop:aeca906d-f4b3-4ecb-94de-8d00c894c814 "";
-    cedar-prop:d9efe7c6-75b6-46a8-8be0-0defd0f7b6c5 _:genid-9936221d90b147b8b3efca8b57900297-b2 .
+    cedar-prop:d9efe7c6-75b6-46a8-8be0-0defd0f7b6c5 _:genid-3d8721e939934a06afe076cb0bf2c6af-b2 .
   
   cedar-tempelinst:fce8091e-34e4-42a3-a948-1a04770104d8 <https://schema.metadatacenter.net/properties/authors>
       "https://avillach-lab.hms.harvard.edu";
@@ -89,10 +89,10 @@
 
 :pubinfo {
   : dct:created "2018-07-30T11:19:42-0700"^^xsd:dateTime;
-    dct:creator cedar-user:912df685-4541-4753-a993-dd0585c4c640;
-    dct:hasVersion : .
+    dct:creator cedar-user:912df685-4541-4753-a993-dd0585c4c640 .
   
-  cedar-tempinst:a89639ce-08e7-4f40-8cbf-84a832b2aab5 pav:createdBy cedar-user:912df685-4541-4753-a993-dd0585c4c640;
+  cedar-tempinst:a89639ce-08e7-4f40-8cbf-84a832b2aab5 dct:hasVersion :;
+    pav:createdBy cedar-user:912df685-4541-4753-a993-dd0585c4c640;
     pav:createdOn "2018-07-10T12:34:46-0700"^^xsd:dateTime;
     schema:description "Description of your digital object (or collection)";
     schema:isBasedOn cedar-temp:62c8b5f2-7dc9-4fff-9008-07c95a746411;

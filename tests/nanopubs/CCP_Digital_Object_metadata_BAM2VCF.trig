@@ -1,5 +1,5 @@
-@prefix this: <http://purl.org/np/RAqNt_L4rlfuHnGlF2lJflR_asxWxsc2KP2b-0vuxn4wE> .
-@prefix sub: <http://purl.org/np/RAqNt_L4rlfuHnGlF2lJflR_asxWxsc2KP2b-0vuxn4wE#> .
+@prefix this: <http://purl.org/np/RAX3B4elA2QH-6ncx9cj6MOANhwQ8gt7NouNutmnDWRfY> .
+@prefix sub: <http://purl.org/np/RAX3B4elA2QH-6ncx9cj6MOANhwQ8gt7NouNutmnDWRfY#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
@@ -90,10 +90,10 @@ sub:provenance {
 
 sub:pubinfo {
   this: dct:created "2019-03-26T07:03:16-0700"^^xsd:dateTime;
-    dct:creator cedar-user:694986cc-591a-4f4e-a2e3-b208c2b57adb;
-    dct:hasVersion this: .
+    dct:creator cedar-user:694986cc-591a-4f4e-a2e3-b208c2b57adb .
   
-  cedar-tempinst:c62c1058-0994-4ccf-8eff-02354ab8ba0f pav:createdBy cedar-user:694986cc-591a-4f4e-a2e3-b208c2b57adb;
+  cedar-tempinst:c62c1058-0994-4ccf-8eff-02354ab8ba0f dct:hasVersion this:;
+    pav:createdBy cedar-user:694986cc-591a-4f4e-a2e3-b208c2b57adb;
     pav:createdOn "2018-08-31T14:01:53-0700"^^xsd:dateTime;
     schema:description "Although Google Cloud Genomics and Sentieon pipelines support robust tools to obtain high quality VCFs from BAM files, obtaining VCF files from these pipelines is not a trivial task. The problem is made worse when a BAM file has missing information in the header or an incomplete file structure to utilize GATK pipelines. The problem gets more complicated and challenging when the number of BAM files that needs to be processed is too large to rely on manual file management techniques and all of the files need to be transferred in and out of Google Cloud Storage. Therefore, we have implemented pipelines and source codes for producing VCF files from BAM files by utilizing Google Cloud Genomics and Sentieon pipelines.";
     schema:isBasedOn cedar-temp:62c8b5f2-7dc9-4fff-9008-07c95a746411;
